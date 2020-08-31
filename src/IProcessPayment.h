@@ -9,6 +9,7 @@
 using namespace std;
 
 class IProcessPayment{
+public:
    virtual  std::string sendPayment() const =0;
 };
 
