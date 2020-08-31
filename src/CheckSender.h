@@ -6,9 +6,11 @@
 #define LAB05_DEPENDENCY_INVERSION_SOLUTION_CHECKSENDER_H
 
 #include <string>
-
-class CheckSender{
+#include "IProcessPayment.h"
+class CheckSender : public IProcessPayment{
 public:
+    CheckSender();
+    ~CheckSender();
     std::string sendPayment() const;
 };
 

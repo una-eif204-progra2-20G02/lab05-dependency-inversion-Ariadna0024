@@ -3,7 +3,12 @@
 //
 
 #include "CashSender.h"
+CashSender::CashSender() {
 
+}
+CashSender::~CashSender() {
+
+}
 std::string CashSender::sendPayment() const {
     return "Give the money in the hands";
 }
