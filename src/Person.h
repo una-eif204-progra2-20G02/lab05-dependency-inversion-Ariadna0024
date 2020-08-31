@@ -30,10 +30,11 @@ public:
     int getDocumentId() const;
 
     void setDocumentId(int documentId);
-
     std::string processPaymentBankTransfer();
     std::string processPaymentCash();
     std::string processPaymentCheck();
+
+
 
     virtual std::string toString() const; // Virtual
 private:
